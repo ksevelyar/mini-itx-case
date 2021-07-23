@@ -53,12 +53,13 @@ module lid_mount() {
 module case() {
   legs();
   difference() {
-    bottom(180,10+44.5);
+    height = 12 + 44.5;
+    bottom(180,height);
     translate([2,2,2]) bottom(176,56);
 
-    translate([16,170.25,5]) rotate([90,-90,180]) cube([444.5,158.5,30]);
-    translate([8.5,170,54.5/2]) rotate([90,-90,180]) cylinder(d=8,h=100);
-    translate([181.5,170,54.5/2]) rotate([90,-90,180]) cylinder(d=6,h=100);  
+    translate([(190-159)/2,172,7]) rotate([90,-90,180]) cube([444.5,159,30]);
+    translate([8.5,170,height/2]) rotate([90,-90,180]) cylinder(d=8,h=100);
+    translate([181.5,170,height/2]) rotate([90,-90,180]) cylinder(d=6,h=100);  
   }
 
   difference() {
@@ -71,10 +72,10 @@ module case() {
     translate([2,2,2]) bottom(176,56);
 
     union () {
-      translate([0,0,48]) lid_mount();
-      translate([190,0,48]) rotate([0,0,90]) lid_mount();
-      translate([190,180,48]) rotate([0,0,180]) lid_mount();
-      translate([0,180,48]) rotate([0,0,-90]) lid_mount();  
+      translate([0,0,50]) lid_mount();
+      translate([190,0,50]) rotate([0,0,90]) lid_mount();
+      translate([190,180,50]) rotate([0,0,180]) lid_mount();
+      translate([0,180,50]) rotate([0,0,-90]) lid_mount();  
 
     }
   }
