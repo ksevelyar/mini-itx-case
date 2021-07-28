@@ -1,4 +1,4 @@
-# mini-itx-case
+# mini-itx case
 
 * minimalistic case for mini-itx motherboards 
 * 180*194mm
