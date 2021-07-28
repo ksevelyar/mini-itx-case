@@ -1,6 +1,17 @@
-# mini-itx-case
+# Linux TV
 
-🧊 Designed for passive cooling J4125 with one SSD and pico PSU
+* universal case for mini-itx motherboards
+* aligned by grid
+* 2 ssd mounts
+
+## Requirements
+
+* passive cooling design (like in Celeron J4125)
+* pico PSU + External PSU
+* SSD
+* Power switch
+* 10 M2 screws
+* ~250g PET-G
 
 ## Tools
 
@@ -13,3 +24,7 @@ nix-shell -p openscad prusa-slicer
 ```
 sh deploy.sh
 ```
+
+## Configuration
+
+https://github.com/ksevelyar/idempotent-desktop/blob/main/hosts/tv.nix
