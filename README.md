@@ -1,6 +1,7 @@
-# Linux TV
+# mini-itx-case
 
-* universal case for mini-itx motherboards
+* 180*194mm
+* universal case for mini-itx motherboards 
 * aligned by grid
 * 2 ssd mounts
 
@@ -25,6 +26,6 @@ nix-shell -p openscad prusa-slicer
 sh deploy.sh
 ```
 
-## Configuration
+## NixOS
 
-https://github.com/ksevelyar/idempotent-desktop/blob/main/hosts/tv.nix
+Designed for tv box: https://github.com/ksevelyar/idempotent-desktop/blob/main/hosts/tv.nix
