@@ -1,8 +1,7 @@
 # mini-itx-case
 
+* minimalistic case for mini-itx motherboards 
 * 180*194mm
-* universal case for mini-itx motherboards 
-* aligned by grid
 * 2 ssd mounts
 
 ## Requirements
