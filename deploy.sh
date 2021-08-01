@@ -1,3 +1,5 @@
+rm -rf build/*.gcode
+
 echo "lid.stl 🐗"
 openscad -o build/lid.stl lid.scad
 

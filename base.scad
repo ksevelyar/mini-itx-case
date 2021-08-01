@@ -1,9 +1,11 @@
 $fn=256;
 height = 15 + 44.5;
 edge = 180;
-longer_edge = 194;
+longer_edge = 195;
 wall = 2;
 border_radius = 10;
+screw_diameter = 3;
+screw_hole = screw_diameter - 0.1;
 
 module bottom(x_edge,y_edge,h) {
   difference() {

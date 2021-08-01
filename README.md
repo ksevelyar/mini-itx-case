@@ -12,8 +12,8 @@
 * pico PSU + External PSU
 * SSD
 * Power switch
-* 10 M2 screws
-* ~250g PET-G
+* 10 M3 screws
+* ~250g PET-G or PLA
 
 ## Tools
 
@@ -24,7 +24,8 @@ nix-shell -p openscad prusa-slicer
 ## Generate .stl & .gcode
 
 ```
-sh deploy.sh
+sh generate-stl.sh
+sh generate-gcode.sh
 ```
 
 ## NixOS
