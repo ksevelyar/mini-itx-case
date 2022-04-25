@@ -6,7 +6,7 @@
 
 ## Requirements
 
-* passive cooling design (like in Celeron J4125)
+* passive cooling design (like Celeron J4125 or Atom D2700)
 * pico PSU + External PSU
 * SSD
 * Power switch
@@ -17,15 +17,14 @@
 
 ```
 nix-shell -p openscad prusa-slicer
-```
 
-## Generate .stl & .gcode
-
-```
 sh generate-stl.sh
 sh generate-gcode.sh
 ```
 
 ## NixOS
 
-Designed for tv box: https://github.com/ksevelyar/idempotent-desktop/blob/main/hosts/tv.nix
+I use this declarative chassis for the declarative Linux:
+
+* [skynet.nix](https://github.com/ksevelyar/idempotent-desktop/blob/main/hosts/skynet.nix)
+* [tv.nix](https://github.com/ksevelyar/idempotent-desktop/blob/main/hosts/tv.nix)
